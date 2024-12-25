@@ -1,0 +1,100 @@
+/* General container styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0; /* Lighter grey background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #333; /* Dark text for contrast */
+    font-family: 'Roboto', sans-serif; /* Better font for readability */
+}
+
+/* Styling for the form container */
+.login-form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter, semi-transparent white background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    text-align: center;
+}
+
+/* Title styling */
+.login-title {
+    font-size: 30px;
+    font-weight: 700; /* Bold text for the title */
+    margin-bottom: 20px;
+    color: #333; /* Dark text for the title */
+}
+
+/* Input field label styling */
+.input-label {
+    font-weight: bold; /* Bold text for labels */
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555; /* Medium grey color for labels */
+}
+
+/* Input field styling */
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #888; /* Medium grey border for input fields */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f5f5f5; /* Light grey background for inputs */
+    color: #333; /* Dark text inside input fields */
+    font-family: 'Arial', sans-serif; /* Clearer, readable font */
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus styling */
+.input-field:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none;
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff3333; /* Brighter red for error messages */
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #0056b3; /* Dark blue background for the button */
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Bold text for the button */
+}
+
+.btn-primary:hover {
+    background-color: #003d7a; /* Even darker blue when hovered */
+}
+
+/* Sign up link styling */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555; /* Medium grey color for the link */
+}
+
+.signup-link-text {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-link-text:hover {
+    text-decoration: underline;
+}
